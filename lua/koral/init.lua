@@ -11,6 +11,8 @@ function koral.setup(opts)
 		require("koral.highlights.diagnostic"),
 		require("koral.highlights.syntax"),
 		require("koral.highlights.treesitter"),
+
+		require("koral.highlights.plugins.lazy"),
 	}
 
 	for _, highlight_table in ipairs(highlight_tables) do
