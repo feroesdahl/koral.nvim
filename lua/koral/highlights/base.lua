@@ -24,7 +24,7 @@ return {
 
 	EndOfBuffer = { fg = colors.grey },
 
-	WarningMsg = { fg = colors.yellow },
+	WarningMsg = { fg = colors.warning },
 	ErrorMsg = { fg = colors.error },
 
 	WinSeparator = { fg = colors.white },
@@ -71,7 +71,7 @@ return {
 	SpecialKey = { link = "Comment" },
 
 	SpellBad = { sp = colors.error, undercurl = true },
-	SpellCap = { sp = colors.yellow, undercurl = true },
+	SpellCap = { sp = colors.warning, undercurl = true },
 	SpellLocal = { sp = colors.cyan, undercurl = true },
 	SpellRare = { sp = colors.blue, undercurl = true },
 

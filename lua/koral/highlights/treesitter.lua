@@ -17,7 +17,7 @@ return {
 
 	["@string"] = { link = "String" },
 	["@string.documentation"] = { link = "@string" },
-	["@string.regexp"] = { link = "@string.special" },
+	["@string.regexp"] = { fg = colors.pink },
 	["@string.escape"] = { link = "@string.special" },
 	["@string.special"] = { link = "Special" },
 	["@string.special.symbol"] = { link = "@string.special" },
@@ -35,7 +35,7 @@ return {
 	["@type.builtin"] = { link = "@keyword" },
 	["@type.definition"] = { link = "@type" },
 
-	["@attribute"] = { fg = colors.purple },
+	["@attribute"] = { fg = colors.pink },
 	["@attribute.builtin"] = { link = "@attribute" },
 	["@property"] = { fg = colors.white },
 	["@property.json"] = { fg = colors.blue },
@@ -75,10 +75,10 @@ return {
 	["@punctuation.special"] = { link = "Special" },
 
 	["@comment"] = { link = "Comment" },
-	["@comment.documentation"] = { link = "Special" },
+	["@comment.documentation"] = { link = "@string" },
 
 	["@comment.error"] = { fg = colors.error },
-	["@comment.warning"] = { fg = colors.yellow },
+	["@comment.warning"] = { fg = colors.warning },
 	["@comment.todo"] = { link = "Todo" },
 	["@comment.note"] = { fg = colors.blue },
 

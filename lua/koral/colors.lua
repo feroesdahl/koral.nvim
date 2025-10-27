@@ -1,14 +1,16 @@
 return {
 	blue = "#7095CC",
 	cyan = "#70C4CC",
-	green = "#70CC8F",
 	orange = "#CC9A70",
-	pink = "#CC70A7",
-	yellow = "#D9D577",
-	red = "#CC7070",
 	purple = "#9A70CC",
+	pink = "#CC70A7",
+	green = "#70CC8F",
+	red = "#CC7070",
+
 	black = "#2C2B33",
-	white = "#EFF7FF",
 	grey = "#7D8185",
+	white = "#EFF7FF",
+
+	warning = "#E6DF60",
 	error = "#CC5252",
 }
