@@ -12,7 +12,7 @@ return {
 	lCursor = { link = "Cursor" },
 	CursorIM = { link = "Cursor" },
 	CursorColumn = { fg = colors.white },
-	CursorLine = { fg = colors.white },
+	CursorLine = {},
 	TermCursor = { link = "Cursor" },
 
 	Directory = { fg = colors.blue },
@@ -36,9 +36,9 @@ return {
 	LineNr = { fg = colors.white },
 	LineNrAbove = { fg = colors.grey },
 	LineNrBelow = { fg = colors.grey },
-	CursorLineNr = { fg = colors.white },
-	CursorLineFold = { link = "LineNr" },
-	CursorLineSign = { link = "LineNr" },
+	CursorLineNr = { fg = colors.grey },
+	CursorLineFold = { fg = colors.grey },
+	CursorLineSign = { fg = colors.grey },
 
 	MatchParen = { underline = true },
 
