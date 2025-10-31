@@ -16,6 +16,7 @@ function koral.setup(opts)
 		require("koral.highlights.plugins.lazy"),
 		require("koral.highlights.plugins.mason"),
 		require("koral.highlights.plugins.neo-tree"),
+		require("koral.highlights.plugins.nvim-notify"),
 	}
 
 	for _, highlight_table in ipairs(highlight_tables) do
