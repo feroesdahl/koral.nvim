@@ -1,7 +1,7 @@
 local colors = require("koral.colors")
 
 return {
-	LazyH1 = { fg = colors.cyan },
+	LazyH1 = { link = "Title" },
 	LazyButton = { fg = colors.white },
 	LazySpecial = { fg = colors.blue },
 	LazyLocal = { fg = colors.pink },

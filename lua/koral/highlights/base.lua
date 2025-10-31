@@ -84,7 +84,7 @@ return {
 	TabLineFill = { link = "TabLine" },
 	TabLineSel = { fg = colors.white, bold = true },
 
-	Title = { fg = colors.white, bold = true },
+	Title = { fg = colors.cyan, bold = true },
 
 	Visual = { fg = colors.white, bg = colors.light_grey },
 	VisualNOS = { link = "Visual" },
