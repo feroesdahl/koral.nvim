@@ -15,6 +15,7 @@ function koral.setup(opts)
 		require("koral.highlights.plugins.fzf-lua"),
 		require("koral.highlights.plugins.lazy"),
 		require("koral.highlights.plugins.mason"),
+		require("koral.highlights.plugins.neo-tree"),
 	}
 
 	for _, highlight_table in ipairs(highlight_tables) do
