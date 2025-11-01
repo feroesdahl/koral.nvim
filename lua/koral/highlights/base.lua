@@ -8,7 +8,7 @@ return {
 	IncSearch = { link = "CurSearch" },
 	Substitute = { fg = colors.black, bg = colors.cyan },
 
-	Cursor = { fg = colors.black, bg = colors.white },
+	Cursor = { fg = colors.black, bg = colors.cyan },
 	lCursor = { link = "Cursor" },
 	CursorIM = { link = "Cursor" },
 	CursorColumn = { fg = colors.white },
@@ -86,7 +86,7 @@ return {
 
 	Title = { fg = colors.cyan, bold = true },
 
-	Visual = { fg = colors.white, bg = colors.light_grey },
+	Visual = { link = "Cursor" },
 	VisualNOS = { link = "Visual" },
 
 	Whitespace = { link = "Comment" },
