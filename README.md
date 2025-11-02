@@ -1,7 +1,5 @@
 # koral.nvim
 
-Neovim theme using colors inspired from coral reefs.
-
 ![screenshot of neovim koral theme](/images/screenshot.png)
 
 ## Installation
