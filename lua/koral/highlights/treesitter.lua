@@ -103,7 +103,7 @@ return {
   ["@markup.link.url"] = { link = "@string.special.url" },
 
   ["@markup.raw"] = { link = "Normal" },
-  ["@markup.raw.block"] = { link = "Normal" },
+  ["@markup.raw.block"] = { fg = colors.white, bg = colors.dark_grey },
 
   ["@markup.list"] = { fg = colors.blue },
   ["@markup.list.checked"] = { fg = colors.green },
