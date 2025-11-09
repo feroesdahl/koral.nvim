@@ -38,8 +38,6 @@ return {
   ["@attribute"] = { fg = colors.pink },
   ["@attribute.builtin"] = { link = "@attribute" },
   ["@property"] = { fg = colors.white },
-  ["@property.json"] = { fg = colors.blue },
-  ["@property.yaml"] = { fg = colors.blue },
 
   ["@function"] = { link = "Function" },
   ["@function.builtin"] = { link = "@function" },

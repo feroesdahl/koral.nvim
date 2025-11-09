@@ -18,6 +18,10 @@ function koral.setup(opts)
     require("koral.highlights.plugins.mason"),
     require("koral.highlights.plugins.neo-tree"),
     require("koral.highlights.plugins.nvim-notify"),
+
+    require("koral.highlights.languages.csharp"),
+    require("koral.highlights.languages.json"),
+    require("koral.highlights.languages.yaml"),
   }
 
   for _, highlight_table in ipairs(highlight_tables) do
