@@ -111,8 +111,8 @@ return {
   ["@diff.minus"] = { link = "DiffDelete" },
   ["@diff.delta"] = { link = "DiffChange" },
 
-  ["@tag"] = { link = "@type" },
-  ["@tag.builtin"] = { link = "@type.builtin" },
+  ["@tag"] = { link = "@keyword" },
+  ["@tag.builtin"] = { link = "@tag" },
   ["@tag.attribute"] = { fg = colors.cyan },
   ["@tag.delimiter"] = { link = "@punctuation.delimiter" },
 }
