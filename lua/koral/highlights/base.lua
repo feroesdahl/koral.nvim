@@ -18,7 +18,7 @@ return {
   Directory = { fg = colors.blue },
 
   DiffAdd = { fg = colors.green },
-  DiffChange = { fg = colors.cyan },
+  DiffChange = { fg = colors.purple },
   DiffDelete = { fg = colors.red },
   DiffText = { link = "DiffChange" },
 
