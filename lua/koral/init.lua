@@ -20,6 +20,7 @@ function koral.setup(opts)
     require("koral.highlights.plugins.nvim-notify"),
 
     require("koral.highlights.languages.csharp"),
+    require("koral.highlights.languages.css"),
     require("koral.highlights.languages.json"),
     require("koral.highlights.languages.yaml"),
   }
