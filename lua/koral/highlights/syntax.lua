@@ -31,7 +31,7 @@ return {
   Structure = { link = "Keyword" },
   Typedef = { link = "Type" },
 
-  Special = { fg = colors.cyan },
+  Special = { fg = colors.blue },
   SpecialChar = { link = "Special" },
   Tag = { fg = colors.purple },
   Delimiter = { fg = colors.white },

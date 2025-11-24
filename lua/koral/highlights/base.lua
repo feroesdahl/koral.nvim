@@ -15,10 +15,10 @@ return {
   CursorLine = {},
   TermCursor = { link = "Cursor" },
 
-  Directory = { fg = colors.blue },
+  Directory = { fg = colors.orange },
 
   DiffAdd = { fg = colors.green },
-  DiffChange = { fg = colors.purple },
+  DiffChange = { fg = colors.blue },
   DiffDelete = { fg = colors.red },
   DiffText = { link = "DiffChange" },
 
@@ -27,7 +27,7 @@ return {
   WarningMsg = { fg = colors.warning },
   ErrorMsg = { fg = colors.error },
 
-  WinSeparator = { fg = colors.white },
+  WinSeparator = { fg = colors.light_grey },
 
   Folded = { fg = colors.light_grey },
   FoldColumn = { link = "Folded" },
