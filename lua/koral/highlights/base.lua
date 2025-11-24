@@ -75,10 +75,10 @@ return {
   SpellLocal = { sp = colors.cyan, undercurl = true },
   SpellRare = { sp = colors.blue, undercurl = true },
 
-  StatusLine = { fg = colors.white },
-  StatusLineNC = { fg = colors.black, bg = colors.dark_grey },
+  StatusLine = { link = "Normal" },
+  StatusLineNC = { link = "StatusLine" },
   StatusLineTerminal = { link = "StatusLine" },
-  StatusLineTermNC = { link = "Normal" },
+  StatusLineTermNC = { link = "StatusLine" },
 
   TabLine = { fg = colors.white, bg = colors.dark_grey },
   TabLineFill = { link = "TabLine" },
