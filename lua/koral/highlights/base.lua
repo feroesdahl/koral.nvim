@@ -55,11 +55,11 @@ return {
   FloatFooter = { fg = colors.white },
   NormalNC = { link = "Normal" },
 
-  Pmenu = { link = "Normal" },
+  Pmenu = { fg = colors.white, bg = colors.dark_grey },
   PmenuSel = { link = "Cursor" },
   PmenuExtra = { link = "PMenu" },
   PmenuExtraSel = { link = "PMenuSel" },
-  PmenuSbar = { fg = colors.white },
+  PmenuSbar = { link = "PMenu" },
   PmenuThumb = { fg = colors.light_grey },
   PmenuMatch = { bold = true },
   PmenuMatchSel = { bold = true },
