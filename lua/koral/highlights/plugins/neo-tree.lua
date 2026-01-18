@@ -7,12 +7,12 @@ return {
   NeoTreeDimText = { fg = colors.light_grey },
 
   NeoTreeGitAdded = { link = "DiffAdd" },
-  NeoTreeGitConflict = { fg = colors.warning },
+  NeoTreeGitConflict = { fg = colors.error },
   NeoTreeGitDeleted = { link = "DiffDelete" },
   NeoTreeGitIgnored = { link = "Comment" },
   NeoTreeGitModified = { link = "DiffChange" },
-  NeoTreeGitUnstaged = { fg = colors.orange },
-  NeoTreeGitUnTracked = { fg = colors.orange },
+  NeoTreeGitUnstaged = { link = "NeoTreeGitModified" },
+  NeoTreeGitUnTracked = { fg = colors.purple },
 
   NeoTreeSymbolicLinkTarget = { fg = colors.pink },
 }
