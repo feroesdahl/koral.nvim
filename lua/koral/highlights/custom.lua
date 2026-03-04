@@ -1,0 +1,3 @@
+return {
+  VisualCursor = { link = "Visual" },
+}

@@ -86,7 +86,7 @@ return {
 
   Title = { fg = colors.cyan, bold = true },
 
-  Visual = { link = "Cursor" },
+  Visual = { bg = colors.dark_grey },
   VisualNOS = { link = "Visual" },
 
   Whitespace = { link = "Comment" },

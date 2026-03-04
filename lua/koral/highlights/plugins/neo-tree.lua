@@ -3,7 +3,7 @@ local colors = require("koral.colors")
 return {
   NeoTreeRootName = { link = "NeoTreeDirectoryName" },
 
-  NeoTreeCursorLine = { link = "Cursor" },
+  NeoTreeCursorLine = { link = "VisualCursor" },
   NeoTreeDimText = { fg = colors.light_grey },
 
   NeoTreeGitAdded = { link = "DiffAdd" },

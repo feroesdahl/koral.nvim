@@ -8,7 +8,7 @@ return {
   red = "#CC7070",
 
   black = "#2C2B33",
-  dark_grey = "#373640",
+  dark_grey = "#414055",
   light_grey = "#7D8185",
   white = "#EFF7FF",
 

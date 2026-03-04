@@ -6,6 +6,8 @@ function koral.setup(opts)
 
   vim.g.colors_name = "koral"
 
+  require("koral.autocmds").setup()
+
   local highlight_tables = require("koral.util").get_highlight_tables()
 
   for _, highlight_table in ipairs(highlight_tables) do
