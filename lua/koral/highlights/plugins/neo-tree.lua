@@ -15,4 +15,7 @@ return {
   NeoTreeGitUnTracked = { fg = colors.purple },
 
   NeoTreeSymbolicLinkTarget = { fg = colors.pink },
+
+  NeoTreeFloatBorder = { fg = colors.dark_grey },
+  NeoTreeTitleBar = { fg = colors.white, bg = colors.dark_grey }
 }
