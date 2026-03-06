@@ -15,8 +15,8 @@ return {
   MarkviewHeading5Sign = { link = "MarkviewHeading5" },
   MarkviewHeading6Sign = { link = "MarkviewHeading6" },
 
-  MarkviewCode = { bg = colors.black },
-  MarkviewInlineCode = { bg = colors.black },
+  MarkviewCode = { bg = colors.dark_grey },
+  MarkviewInlineCode = { bg = colors.dark_grey },
 
   MarkviewListItemPlus = { fg = colors.blue },
   MarkviewListItemStar = { fg = colors.blue },
