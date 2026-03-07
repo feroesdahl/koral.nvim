@@ -12,6 +12,6 @@ return {
   light_grey = "#7D8185",
   white = "#EFF7FF",
 
-  warning = "#E6DF60",
+  warning = "#CCC252",
   error = "#CC5252",
 }
