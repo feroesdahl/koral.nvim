@@ -12,7 +12,7 @@ return {
   NeoTreeGitIgnored = { link = "Comment" },
   NeoTreeGitModified = { link = "DiffChange" },
   NeoTreeGitUnstaged = { link = "NeoTreeGitModified" },
-  NeoTreeGitUnTracked = { fg = colors.yellow },
+  NeoTreeGitUntracked = { fg = colors.yellow },
 
   NeoTreeSymbolicLinkTarget = { fg = colors.pink },
 

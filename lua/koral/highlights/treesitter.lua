@@ -21,7 +21,7 @@ return {
   ["@string.escape"] = { link = "@string.special" },
   ["@string.special"] = { link = "Special" },
   ["@string.special.symbol"] = { fg = colors.cyan },
-  ["@string.special.url"] = { fg = colors.pink, underline = true },
+  ["@string.special.url"] = { fg = colors.yellow, underline = true },
   ["@string.special.path"] = { fg = colors.orange },
 
   ["@character"] = { link = "@string" },
@@ -81,23 +81,23 @@ return {
   ["@comment.note"] = { fg = colors.blue },
 
   ["@markup.strong"] = { fg = colors.blue, bold = true },
-  ["@markup.italic"] = { fg = colors.green, italic = true },
+  ["@markup.italic"] = { fg = colors.blue, italic = true },
   ["@markup.strikethrough"] = { fg = colors.light_grey, strikethrough = true },
-  ["@markup.underline"] = { underline = true },
+  ["@markup.underline"] = { fg = colors.blue, underline = true },
 
-  ["@markup.heading"] = { link = "Title" },
+  ["@markup.heading"] = { fg = colors.pink },
   ["@markup.heading.1"] = { fg = colors.cyan },
   ["@markup.heading.2"] = { fg = colors.blue },
-  ["@markup.heading.3"] = { fg = colors.purple },
-  ["@markup.heading.4"] = { fg = colors.blue },
+  ["@markup.heading.3"] = { fg = colors.green },
+  ["@markup.heading.4"] = { fg = colors.pink },
   ["@markup.heading.5"] = { fg = colors.purple },
-  ["@markup.heading.6"] = { fg = colors.blue },
+  ["@markup.heading.6"] = { fg = colors.yellow },
 
   ["@markup.quote"] = { link = "@string" },
-  ["@markup.math"] = { fg = colors.pink },
+  ["@markup.math"] = { fg = colors.blue },
 
   ["@markup.link"] = { fg = colors.blue },
-  ["@markup.link.label"] = { fg = colors.orange },
+  ["@markup.link.label"] = { link = "Normal" },
   ["@markup.link.url"] = { link = "@string.special.url" },
 
   ["@markup.raw"] = { link = "Normal" },
@@ -105,7 +105,7 @@ return {
 
   ["@markup.list"] = { fg = colors.blue },
   ["@markup.list.checked"] = { fg = colors.green },
-  ["@markup.list.unchecked"] = { link = "@markup.list" },
+  ["@markup.list.unchecked"] = { fg = colors.green },
 
   ["@diff.plus"] = { link = "DiffAdd" },
   ["@diff.minus"] = { link = "DiffDelete" },
