@@ -40,7 +40,7 @@ return {
 
   Underlined = { underline = true },
 
-  Error = { fg = colors.error },
+  Error = { fg = colors.red },
   Todo = { fg = colors.cyan },
 
   Added = { link = "DiffAdd" },

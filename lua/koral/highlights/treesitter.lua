@@ -75,8 +75,8 @@ return {
   ["@comment"] = { link = "Comment" },
   ["@comment.documentation"] = { link = "@string" },
 
-  ["@comment.error"] = { fg = colors.error },
-  ["@comment.warning"] = { fg = colors.warning },
+  ["@comment.error"] = { fg = colors.red },
+  ["@comment.warning"] = { fg = colors.yellow },
   ["@comment.todo"] = { link = "Todo" },
   ["@comment.note"] = { fg = colors.blue },
 

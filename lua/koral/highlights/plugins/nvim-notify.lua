@@ -1,13 +1,13 @@
 local colors = require("koral.colors")
 
 return {
-  NotifyERRORBorder = { fg = colors.error },
-  NotifyERRORTitle = { fg = colors.error },
-  NotifyERRORIcon = { fg = colors.error },
+  NotifyERRORBorder = { fg = colors.red },
+  NotifyERRORTitle = { fg = colors.red },
+  NotifyERRORIcon = { fg = colors.red },
 
-  NotifyWARNBorder = { fg = colors.warning },
-  NotifyWARNTitle = { fg = colors.warning },
-  NotifyWARNIcon = { fg = colors.warning },
+  NotifyWARNBorder = { fg = colors.yellow },
+  NotifyWARNTitle = { fg = colors.yellow },
+  NotifyWARNIcon = { fg = colors.yellow },
 
   NotifyINFOBorder = { fg = colors.cyan },
   NotifyINFOTitle = { fg = colors.cyan },
