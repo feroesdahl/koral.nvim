@@ -97,7 +97,7 @@ return {
   ["@markup.math"] = { fg = colors.blue },
 
   ["@markup.link"] = { fg = colors.blue },
-  ["@markup.link.label"] = { link = "Normal" },
+  ["@markup.link.label"] = { link = "@string.special.url" },
   ["@markup.link.url"] = { link = "@string.special.url" },
 
   ["@markup.raw"] = { link = "Normal" },
