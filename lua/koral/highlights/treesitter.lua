@@ -32,7 +32,7 @@ return {
   ["@number.float"] = { link = "Float" },
 
   ["@type"] = { link = "Type" },
-  ["@type.builtin"] = { link = "@keyword" },
+  ["@type.builtin"] = { link = "@type" },
   ["@type.definition"] = { link = "@type" },
 
   ["@attribute"] = { fg = colors.pink },
