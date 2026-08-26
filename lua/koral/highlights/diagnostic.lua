@@ -7,7 +7,7 @@ return {
   DiagnosticHint = { fg = colors.purple },
   DiagnosticOk = { fg = colors.green },
   DiagnosticDeprecated = { fg = colors.orange },
-  DiagnosticUnnecessary = { fg = colors.light_grey },
+  DiagnosticUnnecessary = { fg = colors.grey },
 
   DiagnosticUnderlineError = { sp = colors.red, undercurl = true },
   DiagnosticUnderlineWarn = { sp = colors.yellow, undercurl = true },

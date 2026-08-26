@@ -4,7 +4,7 @@ return {
   NeoTreeRootName = { link = "NeoTreeDirectoryName" },
 
   NeoTreeCursorLine = { link = "Visual" },
-  NeoTreeDimText = { fg = colors.light_grey },
+  NeoTreeDimText = { fg = colors.grey },
 
   NeoTreeGitAdded = { link = "DiffAdd" },
   NeoTreeGitConflict = { fg = colors.yellow },
@@ -16,6 +16,6 @@ return {
 
   NeoTreeSymbolicLinkTarget = { fg = colors.pink },
 
-  NeoTreeFloatBorder = { fg = colors.dark_grey },
-  NeoTreeTitleBar = { fg = colors.white, bg = colors.dark_grey }
+  NeoTreeFloatBorder = { fg = colors.dim_grey },
+  NeoTreeTitleBar = { fg = colors.white, bg = colors.dim_grey }
 }

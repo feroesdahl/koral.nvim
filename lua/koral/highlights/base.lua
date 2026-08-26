@@ -1,8 +1,8 @@
 local colors = require("koral.colors")
 
 return {
-  ColorColumn = { fg = colors.white, bg = colors.light_grey },
-  Conceal = { fg = colors.light_grey },
+  ColorColumn = { fg = colors.white, bg = colors.grey },
+  Conceal = { fg = colors.grey },
   Search = { fg = colors.black, bg = colors.orange },
   CurSearch = { link = "Search" },
   IncSearch = { link = "CurSearch" },
@@ -22,32 +22,32 @@ return {
   DiffDelete = { fg = colors.red },
   DiffText = { link = "DiffChange" },
 
-  EndOfBuffer = { fg = colors.light_grey },
+  EndOfBuffer = { fg = colors.grey },
 
   WarningMsg = { fg = colors.yellow },
   ErrorMsg = { fg = colors.red },
 
-  WinSeparator = { fg = colors.light_grey },
+  WinSeparator = { fg = colors.grey },
 
-  Folded = { fg = colors.light_grey },
+  Folded = { fg = colors.grey },
   FoldColumn = { link = "Folded" },
   SingColumn = { link = "Folded" },
 
   LineNr = { fg = colors.white },
-  LineNrAbove = { fg = colors.light_grey },
-  LineNrBelow = { fg = colors.light_grey },
-  CursorLineNr = { fg = colors.light_grey },
-  CursorLineFold = { fg = colors.light_grey },
-  CursorLineSign = { fg = colors.light_grey },
+  LineNrAbove = { fg = colors.grey },
+  LineNrBelow = { fg = colors.grey },
+  CursorLineNr = { fg = colors.grey },
+  CursorLineFold = { fg = colors.grey },
+  CursorLineSign = { fg = colors.grey },
 
   MatchParen = { underline = true },
 
   ModeMsg = { fg = colors.cyan },
   MsgArea = { link = "Normal" },
-  MsgSeparator = { fg = colors.light_grey, bg = colors.white },
+  MsgSeparator = { fg = colors.grey, bg = colors.white },
   MoreMsg = { fg = colors.orange },
 
-  NonText = { fg = colors.light_grey },
+  NonText = { fg = colors.grey },
   Normal = { fg = colors.white },
   NormalFloat = { link = "Normal" },
   FloatBorder = { link = "Normal" },
@@ -55,19 +55,19 @@ return {
   FloatFooter = { fg = colors.white },
   NormalNC = { link = "Normal" },
 
-  Pmenu = { fg = colors.white, bg = colors.dark_grey },
+  Pmenu = { fg = colors.white, bg = colors.dim_grey },
   PmenuSel = { link = "Cursor" },
   PmenuExtra = { link = "PMenu" },
   PmenuExtraSel = { link = "PMenuSel" },
   PmenuSbar = { link = "PMenu" },
-  PmenuThumb = { fg = colors.light_grey },
+  PmenuThumb = { fg = colors.grey },
   PmenuMatch = { bold = true },
   PmenuMatchSel = { bold = true },
 
   ComplMatchIns = { fg = colors.white },
   Question = { fg = colors.cyan },
   QuickFixLine = { fg = colors.cyan },
-  SnippetTabstop = { fg = colors.light_grey },
+  SnippetTabstop = { fg = colors.grey },
   SpecialKey = { link = "Comment" },
 
   SpellBad = { sp = colors.red, undercurl = true },
@@ -80,17 +80,17 @@ return {
   StatusLineTerminal = { link = "StatusLine" },
   StatusLineTermNC = { link = "StatusLine" },
 
-  TabLine = { fg = colors.white, bg = colors.dark_grey },
+  TabLine = { fg = colors.white, bg = colors.dim_grey },
   TabLineFill = { link = "TabLine" },
   TabLineSel = { fg = colors.white, bold = true },
 
   Title = { fg = colors.cyan, bold = true },
 
-  Visual = { bg = colors.dark_grey },
+  Visual = { bg = colors.dim_grey },
   VisualNOS = { link = "Visual" },
 
   Whitespace = { link = "Comment" },
-  WildMenu = { fg = colors.light_grey, bg = colors.white },
-  WinBar = { fg = colors.light_grey, bg = colors.black, bold = true },
-  WinBarNC = { fg = colors.light_grey, bg = colors.black },
+  WildMenu = { fg = colors.grey, bg = colors.white },
+  WinBar = { fg = colors.grey, bg = colors.black, bold = true },
+  WinBarNC = { fg = colors.grey, bg = colors.black },
 }

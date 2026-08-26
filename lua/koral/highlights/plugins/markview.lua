@@ -42,8 +42,8 @@ return {
   MarkviewPalette6Sign = { fg = colors.yellow },
   MarkviewHeading6 = { fg = colors.black, bg = colors.yellow, bold = true },
 
-  MarkviewCode = { bg = colors.dark_grey },
-  MarkviewCodeInfo = { bg = colors.dark_grey },
+  MarkviewCode = { bg = colors.dim_grey },
+  MarkviewCodeInfo = { bg = colors.dim_grey },
   MarkviewCodeFg = {},
-  MarkviewInlineCode = { bg = colors.dark_grey },
+  MarkviewInlineCode = { bg = colors.dim_grey },
 }

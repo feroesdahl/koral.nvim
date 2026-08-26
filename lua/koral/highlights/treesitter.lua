@@ -82,7 +82,7 @@ return {
 
   ["@markup.strong"] = { fg = colors.blue, bold = true },
   ["@markup.italic"] = { fg = colors.blue, italic = true },
-  ["@markup.strikethrough"] = { fg = colors.light_grey, strikethrough = true },
+  ["@markup.strikethrough"] = { fg = colors.grey, strikethrough = true },
   ["@markup.underline"] = { fg = colors.blue, underline = true },
 
   ["@markup.heading"] = { fg = colors.pink },

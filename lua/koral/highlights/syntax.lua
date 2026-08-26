@@ -1,7 +1,7 @@
 local colors = require("koral.colors")
 
 return {
-  Comment = { fg = colors.light_grey },
+  Comment = { fg = colors.grey },
   Constant = { fg = colors.white },
 
   String = { fg = colors.green },
