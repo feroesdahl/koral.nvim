@@ -3,10 +3,10 @@ local colors = require("koral.colors")
 return {
   ColorColumn = { fg = colors.white, bg = colors.grey },
   Conceal = { fg = colors.grey },
-  Search = { fg = colors.black, bg = colors.orange },
-  CurSearch = { link = "Search" },
+  Search = { bg = colors.dim_blue },
+  CurSearch = { bg = colors.dim_cyan },
   IncSearch = { link = "CurSearch" },
-  Substitute = { fg = colors.black, bg = colors.cyan },
+  Substitute = { bg = colors.dim_pink },
 
   Cursor = { fg = colors.black, bg = colors.cyan },
   lCursor = { link = "Cursor" },
@@ -49,14 +49,14 @@ return {
 
   NonText = { fg = colors.grey },
   Normal = { fg = colors.white },
-  NormalFloat = { link = "Normal" },
-  FloatBorder = { link = "Normal" },
+  NormalFloat = { fg = colors.white, bg = colors.black },
+  FloatBorder = { link = "NormalFloat" },
   FloatTitle = { link = "Title" },
-  FloatFooter = { fg = colors.white },
+  FloatFooter = { link = "NormalFloat" },
   NormalNC = { link = "Normal" },
 
-  Pmenu = { fg = colors.white, bg = colors.dim_grey },
-  PmenuSel = { link = "Cursor" },
+  Pmenu = { fg = colors.white, bg = colors.black },
+  PmenuSel = { bg = colors.dim_grey },
   PmenuExtra = { link = "PMenu" },
   PmenuExtraSel = { link = "PMenuSel" },
   PmenuSbar = { link = "PMenu" },
